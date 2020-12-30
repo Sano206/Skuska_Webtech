@@ -1,3 +1,35 @@
+
+document.addEventListener("DOMContentLoaded", () => {
+    let data;
+    var $menu = $("#menu");
+
+
+
+    fetch("data.json")
+        .then(response => response.json() )
+        .then(json=>{
+            data = json
+            console.log(data)
+
+            $.each(data.menu, function () {
+                $menu.append(
+                    getMenuItem(this)
+                );
+            });
+            $menu.menu();
+
+        })
+        .catch((error)=>{
+            console.log(error)
+        })
+
+
+
+
+
+})
+
+
 var getMenuItem = function (itemData) {
     var item = $("<li>")
         .append(
@@ -14,11 +46,3 @@ var getMenuItem = function (itemData) {
     }
     return item;
 };
-
-var $menu = $("#menu");
-$.each(data.menu, function () {
-    $menu.append(
-        getMenuItem(this)
-    );
-});
-$menu.menu();
