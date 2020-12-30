@@ -1,0 +1,84 @@
+img{
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+}
+
+.ui-active-highligh{
+    filter: drop-shadow(1px 1px 0 green)
+    drop-shadow(-1px -1px 0 green);
+}
+
+.container{
+    width: 80%;
+    display: grid;
+    margin: 40px;
+    justify-self: center;
+    grid-template-columns: 40% 40%;
+}
+
+.pieces-container{
+    position: relative;
+    display: block;
+    background: burlywood;
+    justify-self: center;
+    border-radius: 15px;
+    padding: 10px;
+    padding-right: -150px;
+}
+.puzzle-container{
+    position: relative;
+    justify-self: center;
+    max-width: 1200px;
+}
+
+.item{
+    position: absolute;
+}
+
+.piece{
+    position: absolute;
+}
+
+
+.sk1{
+    top: 121px;
+    left: 221px;
+}
+.sk2{
+    top: 148px;
+    left: 403px;
+}
+.sk3{
+    top: 230px;
+    left: 440px;
+}
+.sk4{
+    top: 243px;
+    left: 235px;
+}
+.sk5{
+    top: 285px;
+    left: 143px;
+}
+.sk6{
+    top: 170px;
+    left: 98px;
+}
+.sk7{
+    top: 255px;
+    left: 47px;
+}
+.sk8{
+    top: 293px;
+    left: 33px;
+}
+
+body{
+    width: 100%;
+    background-image: url("img_map/bcg.png");
+    background-repeat: repeat;
+
+}
+
