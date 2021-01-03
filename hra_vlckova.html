@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle Vlckova</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+          href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/trontastic/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NYU JigSaw Puzzle</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://www.jqueryui.com/resources/demos/style.css">
+
+    <script src="hra_vlckova.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="hra_vlckova.css">
+
+    <script src="jquery.ui.touch-punch.min.js"></script>
+
+</head>
+
+<body>
+<div class="fade">
+    <div class="modal">
+        <h1>PUZZLE DEMO</h1>
+        <div id="containerModal">
+            <div id="pieceContainerModal">
+                <div class="pic1" STYLE="position:absolute; TOP:10px; LEFT:20px;" class="ui-widget-content">
+                    <img src="pics_vlckova/pic1.jpg">
+                </div>
+
+                <div class="pic2" STYLE="position:absolute; TOP:50px; LEFT:30px;" class="ui-widget-content">
+                    <img src="pics_vlckova/pic2.jpg">
+                </div>
+
+                <div class="pic3" STYLE="position:absolute; TOP:90px; LEFT:50px;" class="ui-widget-content">
+                    <img src="pics_vlckova/pic3.jpg">
+                </div>
+
+                <div class="pic4" STYLE="position:absolute; TOP:100px; LEFT:100px;" class="ui-widget-content">
+                    <img src="pics_vlckova/pic4.jpg">
+                </div>
+
+                <div class="pic5" STYLE="position:absolute; TOP:100px; LEFT:70px;" class="ui-widget-content">
+                    <img src="pics_vlckova/pic5.jpg">
+                </div>
+
+                <div class="pic6" STYLE="position:absolute; TOP:70px; LEFT:160px;" class="ui-widget-content">
+                    <img src="pics_vlckova/pic6.jpg">
+                </div>
+
+                <div class="pic7" STYLE="position:absolute; TOP:100px; LEFT:80px;" class="ui-widget-content">
+                    <img src="pics_vlckova/pic7.jpg">
+                </div>
+
+                <div class="pic8" STYLE="position:absolute; TOP:30px; LEFT:140px;" class="ui-widget-content">
+                    <img src="pics_vlckova/pic8.jpg">
+                </div>
+
+                <div class="pic9" STYLE="position:absolute; TOP:40px; LEFT:180px;" class="ui-widget-content">
+                    <img src="pics_vlckova/pic9.jpg">
+                </div>
+            </div>
+            <div id="puzzleContainerModal"></div>
+            <button id="btnClose" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+</div>
+<div id="container">
+    <h1>PUZZLE GAME</h1>
+    <div id="pieceContainer"></div>
+    <div id="puzzleContainer"></div>
+    <ul id="buttons">
+        <li><button onclick="startStop()" id="btnStart">Start</button></li>
+        <li><button onclick="reset()" id="btnReset">Reset</button></li>
+        <li><button onclick="openModal()" id="btnDemo">Demo</button></li>
+        <div class="containerWatch">
+            <div id="display">
+                00:00:00
+            </div>
+        </div>
+    </ul>
+</div>
+</body>
+</html>
