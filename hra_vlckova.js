@@ -120,47 +120,47 @@ $(document).ready(function(){
 /*DEMO*/
 function openModal(){
     document.getElementsByClassName('fade')[0].style.display="flex";
-    $( "#pic1" ).animate({
+    $( ".pic1" ).animate({
         left: "-=-324",
         top: "-=68"
     },4500);
 
-    $( "#pic2" ).animate({
+    $( ".pic2" ).animate({
         left: "-=-414",
         top: "-=108"
     },4500);
 
-    $( "#pic3" ).animate({
+    $( ".pic3" ).animate({
         left: "-=-494",
         top: "-=148"
     },4500);
 
-    $( "#pic4" ).animate({
+    $( ".pic4" ).animate({
         left: "-=-244",
         top: "-=59"
     },4500);
 
-    $( "#pic5" ).animate({
+    $( ".pic5" ).animate({
         left: "-=-374",
         top: "-=58"
     },4500);
 
-    $( "#pic6" ).animate({
+    $( ".pic6" ).animate({
         left: "-=-384",
         top: "-=28"
     },4500);
 
-    $( "#pic7" ).animate({
+    $( ".pic7" ).animate({
         left: "-=-264",
         top: "-=-42"
     },4500);
 
-    $( "#pic8" ).animate({
+    $( ".pic8" ).animate({
         left: "-=-304",
         top: "-=-112"
     },4500);
 
-    $( "#pic9" ).animate({
+    $( ".pic9" ).animate({
         left: "-=-364",
         top: "-=-101.5"
     },4500);
