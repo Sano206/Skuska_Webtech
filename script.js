@@ -34,10 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
         })
 
 
-
-
-
 })
+
 
 function setCookie(cname, cvalue, exdays) { //w3schools cookies
     var d = new Date();

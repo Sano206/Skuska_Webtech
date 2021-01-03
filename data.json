@@ -1,25 +1,22 @@
 {"menu":[
-  {"name": "Croatia", "link": "index.html", "sub": null
+  {"name": "Úvod", "link": "index.html", "sub": null
   },
-  {"name": "Hry", "link": "index.html", "sub": [
-    {"name": "Gajdoš","link": "hra_gajdos.html", "sub": null},
-    {"name": "Lašan","link": "index.html", "sub": null},
-    {"name": "Vlčková","link": "hra_vlckova.html", "sub": null}
-  ]},
-  {"name": "Spain", "link": "index.html", "sub": [
-    {"name": "Barcelona","link": "index.html", "sub": [
-      {"name": "Arsenal","link": "index.html", "sub": null},
-      {"name": "Liverpool","link": "index.html", "sub": null},
-      {"name": "Manchester United","link": "index.html", "sub": null}
+  {"name": "Autori", "link": "index.html", "sub": [
+    {"name": "Gajdoš","link": "index.html", "sub": [
+      {"name": "O mne","link": "index.html", "sub": null},
+      {"name": "Hra","link": "hra_gajdos.html", "sub": null}
     ]},
-    {"name": "Real Madrid","link": "index.html", "sub": null}
-  ]},
-  {"name": "Germany", "link": "index.html","sub": [
-    {"name": "Bayern Munich","link": "index.html", "sub": null},
-    {"name": "Borrusia Dortmund","link": "index.html", "sub": [
-      {"name": "Arsenal","link": "index.html", "sub": null},
-      {"name": "Liverpool","link": "index.html", "sub": null},
-      {"name": "Manchester United","link": "index.html", "sub": null}
+    {"name": "Lašan","link": "index.html", "sub": [
+      {"name": "O mne","link": "index.html", "sub": null},
+      {"name": "Hra","link": "index.html", "sub": null}
+    ]},
+    {"name": "Vlčková","link": "index.html", "sub": [
+      {"name": "O mne","link": "index.html", "sub": null},
+      {"name": "Hra","link": "hra_vlckova.html", "sub": null}
+    ]},
+    {"name": "Gašparovič","link": "index.html", "sub": [
+      {"name": "O mne","link": "index.html", "sub": null},
+      {"name": "Hra","link": "index.html", "sub": null}
     ]}
   ]}
 ]}
