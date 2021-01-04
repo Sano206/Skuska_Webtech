@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url("gasparovic_obrazky/simple-hd-wallpapers.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#container {
+    width: 1700px;
+    height: 800px;
+    border: solid black;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    /*justify-self: center;*/
+    /*grid-template-columns: 40% 40%;*/
+}
+
+#pieceContainer {
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    line-height: 400px;
+}
+
+#puzzleContainer {
+    /*position: absolute;*/
+    /*justify-self: center;*/
+    /*width: 800px;*/
+    /*height: 800px;*/
+    /*border: 1px solid black;*/
+    /*right: auto;*/
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul button {
+    width: 100px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#btnReset {
+    display: none;
+}
+
+.piece {
+    position: absolute;
+}
+
+.piece_1 {
+    top: 121px;
+    left: 100px;
+}
+
+#outline {
+    left: 10px;
+}
+
+

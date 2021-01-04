@@ -28,7 +28,8 @@ ul{
     //position: relative;
     //padding: 3px 1em 3px .4em;
     color: black;
-    padding: 2px 1em 3px 1em;
+    padding: 0 1em 3px 1em;
+    border-radius: 6px;
 }
 .ui-menu .ui-menu-item {
     margin-right: 20px;
@@ -219,9 +220,36 @@ td{
     text-align: center;
 }
 
+ul li a .breadcrumbs {
+    padding: 10px ;
+    font-family: 'Audiowide', cursive;
+    bottom: 0;
+}
 
+.breadcrumbs_item {
+    display: inline-block;
+    color: green;
+}
 
+.breadcrumbs_item:not(:last-of-type)::after {
+    content: '/';
+    margin: 0 5px;
+    color: red;
+}
 
+.breadcrumbs_link {
+    text-decoration: none;
+    color: #009578;
+}
+
+.breadcrumbs_link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs_link--active {
+    color: lawngreen;
+    font-weight: 400;
+}
 
 
 
