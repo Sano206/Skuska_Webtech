@@ -84,11 +84,13 @@
     <h1>PUZZLE GAME</h1>
     <div id="pieceContainer"></div>
     <div id="puzzleContainer"></div>
-    <ul id="buttons">
-        <li><button onclick="startStop()" id="btnStart">Start</button></li>
-        <li><button onclick="reset()" id="btnReset">Reset</button></li>
-        <li><button onclick="openModal()" id="btnDemo">Demo</button></li>
-    </ul>
+    
+    <div id="containerButtons">
+        <button class="customButtons" onclick="startStop()" id="btnStart">Start</button>
+        <button class="customButtons" onclick="reset()" id="btnReset">Reset</button>
+        <button class="customButtons" onclick="openModal()" id="btnDemo">Demo</button>
+    </div>
+    
     <div class="containerWatch">
         <div id="display">
             00:00:00
@@ -96,8 +98,6 @@
     </div>
 </div>
 <ul id="menu" class="menu"></ul>
-
-
-
+    
 </body>
 </html>
