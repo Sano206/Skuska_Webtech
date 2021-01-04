@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Puzzle</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="gasparovic_styles.css">
+    <script src="gasparovic_script.js"></script>
+
+</head>
+<body class="wrapper">
+
+<ul class="breadcrumbs">
+    <li class="breadcrumbs_item">
+        <a href="index.html" class="breadcrumbs_link ">Úvod</a>
+    </li>
+    <li class="breadcrumbs_item">
+        <a href="" class="breadcrumbs_link ">Autori</a>
+    </li>
+    <li class="breadcrumbs_item">
+        <a href="gasparovic.html" class="breadcrumbs_link ">Gašparovič</a>
+    </li>
+    <li class="breadcrumbs_item">
+        <a href="gasparovic_hra.html" class="breadcrumbs_link breadcrumbs_link--active">Hra</a>
+    </li>
+</ul>
+
+    <div id="container">
+        <div id="pieceContainer"></div>
+        <img src="gasparovic_obrazky/pokemon-head-1-png.png" height="200" width="268" id="pokemon_head_1" alt="piece_1" class="piece_1"/>
+        <img src="gasparovic_obrazky/pokemon-head-2-png.png" height="165.5" width="245.5" id="pokemon_head_2" alt="piece_2" class="piece_2"/>
+        <img src="gasparovic_obrazky/pokemon-left-foot-png.png" height="112.5" width="74.5" id="left_foot" alt="piece_3" class="piece_3"/>
+        <img src="gasparovic_obrazky/pokemon-right-foot-png.png" height="90" width="62.5" id="right_foot" alt="piece_4" class="piece_4"/>
+        <img src="gasparovic_obrazky/pokemon-left-wing-png.png" height="81.5" width="134" id="left_wing" alt="piece_5" class="piece_5"/>
+        <img src="gasparovic_obrazky/pokemon-right-wing-png.png" height="158.5" width="135.5" id="right_wing" alt="piece_6" class="piece_6"/>
+        <img src="gasparovic_obrazky/pokemon-scarf-png.png" height="87" width="220" id="scarf" alt="piece_7" class="piece_7"/>
+        <img src="gasparovic_obrazky/pokemon-tail-1-png.png" height="99" width="76.5" id="tail_1" alt="piece_8" class="piece_8"/>
+        <img src="gasparovic_obrazky/pokemon-tail-2-png.png" height="62.5" width="56" id="tail_2" alt="piece_9" class="piece_9"/>
+        <img src="gasparovic_obrazky/pokemon-torso-png.png" height="180.5" width="225.5" id="torso" alt="piece_10" class="piece_10"/>
+
+
+<!--        <div id="puzzleContainer"></div>-->
+        <img src="gasparovic_obrazky/pokemon-outline-png.png" height="492" width="457"   id="outline" alt="outline" class="outline dropzone">
+
+        <div id="output"></div>
+
+        <ul id="buttons">
+            <li><button id="btnStart">Start</button></li>
+            <li><button id="btnReset">Reset</button></li>
+        </ul>
+    </div>
+</body>
+</html>
