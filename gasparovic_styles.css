@@ -11,7 +11,7 @@
 }
 
 #container {
-    width: 1700px;
+    width: 1500px;
     height: 800px;
     border: solid black;
     border-radius: 20px;
@@ -65,12 +65,58 @@ ul button {
 }
 
 .piece_1 {
-    top: 121px;
+    top: 50px;
+    left: 700px;
+}
+
+.piece_2 {
+    top: 50px;
+    left: 750px;
+}
+
+.piece_3 {
+    top: 50px;
+    left: 800px;
+}
+
+.piece_4 {
+    top: 200px;
+    left: 180px;
+}
+
+.piece_5 {
+    top: 200px;
+    left: 300px;
+}
+
+.piece_6 {
+    top: 220px;
+    left: 380px;
+}
+
+.piece_7 {
+    top: 350px;
+    left: 0px;
+}
+
+.piece_8 {
+    top: 350px;
+    left: 50px;
+}
+
+.piece_9 {
+    top: 350px;
     left: 100px;
 }
 
+.piece_10 {
+    top: 50px;
+    left: 950px;
+}
+
 #outline {
-    left: 10px;
+    top: 150px;
+    left: 150px;
 }
 
 

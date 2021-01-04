@@ -20,3 +20,7 @@ $(function (){
 
 
 });
+
+$('#outline').droppable({
+    accept:'#pokemon_head_1'
+});

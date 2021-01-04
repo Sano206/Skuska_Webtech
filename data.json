@@ -16,9 +16,11 @@
     ]},
     {"name": "Gašparovič","link": "index.html", "sub": [
       {"name": "O mne","link": "gasparovic.html", "sub": null},
-      {"name": "Hra","link": "index.html", "sub": null}
+      {"name": "Hra","link": "gasparovic_hra.html", "sub": null}
     ]}
   ]},
   {"name": "Checklist", "link": "checklist.html", "sub": null
+  },
+  {"name": "Meniny", "link": "meniny.html", "sub": null
   }
 ]}

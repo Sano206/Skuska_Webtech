@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="meniny.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body onLoad="curDate();">
+
+
+<ul class="breadcrumbs">
+    <li class="breadcrumbs_item">
+        <a href="index.html" class="breadcrumbs_link ">Úvod</a>
+    </li>
+    <li class="breadcrumbs_item">
+        <a href="meniny.html" class="breadcrumbs_link breadcrumbs_link--active">Meniny</a>
+    </li>
+</ul>
+
 <script src="aktualny_datum.js"></script>
+<ul id="menu" class="menu"></ul>
+
+<div class="meniny-container">
+
 <p id="currentDate"></p>
 
 <label for="date">Zadajte datum:</label><br>
@@ -21,6 +41,8 @@
 <button>Vyhladaj datum</button>
 -->
 <p id="output" ></p>
+</div>
+
 
 </body>
 </html>
