@@ -42,9 +42,10 @@ ul{
 
 #menu{
     margin:0;
-    width: 99%;
+    width: 100%;
     height: 50px;
     opacity: 0.8;
+    top: 0;
 }
 
 .ui-menu-item{
@@ -60,7 +61,15 @@ ul{
     font-family: "Californian FB", cursive;
 }
 
-#ui-id-2{
+#ui-id-2 {
+    margin-top: 5px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Californian FB", cursive;
+}
+
+#ui-id-15{
     margin-top: 5px;
     margin-left: 50px;
     text-align: center;
@@ -145,6 +154,8 @@ h1{
     font-size: 20px;
     border: solid black;
     padding: 3px;
+    max-width: 800px;
+    border-radius: 7px;
 
 }
 .foto{
@@ -183,6 +194,29 @@ h1{
     font-size: 20px;
     border: solid black;
     padding: 3px;
+    border-radius: 7px;
+
+}
+
+table{
+    position: absolute;
+    top:35%;
+    left:35%;
+    font-style: oblique;
+    color: whitesmoke;
+    background-color: gray;
+    font-size: 20px;
+    border: solid black;
+    padding: 3px;
+    max-width: 1200px;
+    border-radius: 7px;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    text-align: center;
 }
 
 

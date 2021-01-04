@@ -18,5 +18,7 @@
       {"name": "O mne","link": "gasparovic.html", "sub": null},
       {"name": "Hra","link": "index.html", "sub": null}
     ]}
-  ]}
+  ]},
+  {"name": "Checklist", "link": "checklist.html", "sub": null
+  }
 ]}
