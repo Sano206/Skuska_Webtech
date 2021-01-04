@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let counter = JSON.parse(counterCookie);
         counter++;
         $('#counter').text("Počet prístupov na stránku: " + counter);
+        $('#counterComponent').attr('count', counter);
         setCookie('counter',counter, 360)
     }else {
         $('#counter').text("Počet prístupov na stránku: " + 1);
