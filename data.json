@@ -20,5 +20,7 @@
     ]}
   ]},
   {"name": "Checklist", "link": "checklist.html", "sub": null
+  },
+  {"name": "Meniny", "link": "meniny.html", "sub": null
   }
 ]}
