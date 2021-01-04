@@ -5,9 +5,6 @@ body{
     -o-background-size: cover;
     background-size: cover;
     margin:0;
-
-
-
 }
 ul{
     margin:0;
@@ -25,9 +22,6 @@ ul{
     text-align: center;
     border-radius: 5px;
     //background-image: url("backg.jpg");
-
-
-
 }
 
 .ui-menu .ui-menu-item-wrapper {
@@ -35,7 +29,6 @@ ul{
     //padding: 3px 1em 3px .4em;
     color: black;
     padding: 2px 1em 3px 1em;
-
 }
 .ui-menu .ui-menu-item {
     margin-right: 20px;
@@ -58,23 +51,26 @@ ul{
     height: 20px;
     margin: 10px 1em 5px 3em;
 }
+
 #ui-id-1{
     margin-top: 5px;
     text-align: center;
     width: 100px;
     font-size: 30px;
-
-
-
+    font-family: "Californian FB", cursive;
 }
+
 #ui-id-2{
     margin-top: 5px;
     margin-left: 50px;
     text-align: center;
     font-size: 30px;
-
+    font-family: "Californian FB", cursive;
 }
 
+#ui-id-3 #ui-id-4 #ui-id-5 #ui-id-6 #ui-id-7 #ui-id-8 #ui-id-9 #ui-id-10 #ui-id-11 #ui-id-12 #ui-id-13 #ui-id-14 #ui-id-15{
+    font-family: "Californian FB", cursive;
+}
 
 #counter{
     border: solid black 2px;
@@ -90,15 +86,12 @@ ul{
 ul li{
     float: left;
     width: fit-content;
-
-}
-ul li a{
-
 }
 
 ul li ul {
     width: 300px;
 }
+
 ul li ul li ul li{
     float: none;
 }
@@ -116,8 +109,6 @@ h1{
             5px -1px 0 #000,
             -1px 4px 0 #000,
             2px 1px 0 #000;
-
-
 }
 .color{
     width: 100%;
@@ -126,6 +117,60 @@ h1{
     height: 5px;
     margin-top: 10px;
 }
+
+.meno{
+    font-size: 50px;
+    font-style: oblique;
+    position: absolute;
+    top:25%;
+    left:10%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+    text-shadow:
+            -1px -1px 0 #000,
+            5px -1px 0 #000,
+            -1px 4px 0 #000,
+            2px 1px 0 #000;
+
+}
+
+.bio{
+    position: absolute;
+    top:40%;
+    left:10%;
+    transform: translateY(-50%);
+    font-style: oblique;
+    color: whitesmoke;
+    background-color: gray;
+    font-size: 20px;
+
+}
+.foto{
+    position: absolute;
+    top:50%;
+    left:64.75%;
+    transform: translateY(-50%);
+    height: 330px;
+    border: solid black;
+
+}
+
+@media only screen and (max-width: 1000px){
+    .bio{
+        width: 300px;
+        top: 50%;
+    }
+}
+@media only screen and (max-width: 680px){
+    .foto{
+        top: 80%;
+        left: 40%;
+        transform: translate(-50%);
+    }
+
+}
+
+
 
 
 
