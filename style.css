@@ -136,13 +136,15 @@ h1{
 
 .bio{
     position: absolute;
-    top:40%;
+    top:45%;
     left:10%;
     transform: translateY(-50%);
     font-style: oblique;
     color: whitesmoke;
     background-color: gray;
     font-size: 20px;
+    border: solid black;
+    padding: 3px;
 
 }
 .foto{
@@ -168,6 +170,19 @@ h1{
         transform: translate(-50%);
     }
 
+}
+
+.kontakt{
+    position: absolute;
+    top:55%;
+    left:10%;
+    transform: translateY(-50%);
+    font-style: oblique;
+    color: whitesmoke;
+    background-color: gray;
+    font-size: 20px;
+    border: solid black;
+    padding: 3px;
 }
 
 
