@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="meniny.js" type="text/javascript"></script>
+
+</head>
+<body onLoad="curDate();">
+<script src="aktualny_datum.js"></script>
+<p id="currentDate"></p>
+
+<label for="date">Zadajte datum:</label><br>
+<input onchange="checkDate()" type="text" id="date" name="date" placeholder="MM.DD" pattern="[0-9]{1,2}.[0-9]{1,2}$"><br>
+<button>Vyhladaj mena</button>
+<!--
+<br>
+<br>
+<label for="name">Zadajte meno:</label><br>
+<input onchange="checkName()" type="text" id="name" name="name"><br>
+<button>Vyhladaj datum</button>
+-->
+<p id="output" ></p>
+
+</body>
+</html>
