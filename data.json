@@ -3,19 +3,19 @@
   },
   {"name": "Autori", "link": "index.html", "sub": [
     {"name": "Gajdoš","link": "index.html", "sub": [
-      {"name": "O mne","link": "index.html", "sub": null},
+      {"name": "O mne","link": "gajdos.html", "sub": null},
       {"name": "Hra","link": "hra_gajdos.html", "sub": null}
     ]},
     {"name": "Lašan","link": "index.html", "sub": [
-      {"name": "O mne","link": "index.html", "sub": null},
+      {"name": "O mne","link": "lasan.html", "sub": null},
       {"name": "Hra","link": "index.html", "sub": null}
     ]},
     {"name": "Vlčková","link": "index.html", "sub": [
-      {"name": "O mne","link": "index.html", "sub": null},
+      {"name": "O mne","link": "vlckova.html", "sub": null},
       {"name": "Hra","link": "hra_vlckova.html", "sub": null}
     ]},
     {"name": "Gašparovič","link": "index.html", "sub": [
-      {"name": "O mne","link": "index.html", "sub": null},
+      {"name": "O mne","link": "gasparovic.html", "sub": null},
       {"name": "Hra","link": "index.html", "sub": null}
     ]}
   ]}
