@@ -145,4 +145,24 @@ img{
     padding: 5px;
     width: 60px;
 }
+#timer{
+    color: #ffe6e6;
+    background-color: black;
+    width: 60px;
+    padding: 5px;
+}
+#alert{
+    color: #ffe6e6;
+    background-color: black;
+    width: 60px;
+    padding: 5px;
+    display: none;
+}
+#reset{
+    position: absolute;
+    top:50%;
+    right: 25%;
+    transform: translate(-50%,-25%);
+}
+
 

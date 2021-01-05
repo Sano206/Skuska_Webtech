@@ -1,5 +1,13 @@
-
 let counter = 0;
+let cas = 0;
+
+function time(){
+    setTimeout(function(){
+        document.getElementById('timer').innerHTML = 'Čas: ' + cas + 's';
+        cas = cas + 1;
+        time();
+    }, 1000);
+}
 
 $( function() {
     $( ".original" ).draggable({
@@ -10,23 +18,6 @@ $( function() {
         setDroppable(i);
     }
 
-    var seconds = 0;
-    var minutes = 0;
-    var hours = 0;
-    var timer = setInterval(function () {
-        seconds++;
-        if(seconds === 60){
-            minutes++;
-            seconds = 0;
-        }
-        if(minutes === 60){
-            hours++;
-            minutes = 0;
-        }
-        document.getElementById('output').innerHTML = hours +' : '+minutes+' : '+seconds;
-    }, 1000);
-
-
 
 
     function setDroppable(number){
@@ -35,13 +26,25 @@ $( function() {
             drop: function (event, ui) {
                 console.log(++counter);
                 if(counter === 10){
-                    clearInterval(timer)
-                    alert("Congratulations! Completed in "+ hours +' hours '+minutes+' minutes and '+seconds+ ' seconds')
+                    counter = 0;
+                    document.getElementById("timer").style.display='none';
+                    document.getElementById('alert').innerHTML = 'Čas: ' + cas + 's';
+                    document.getElementById('alert').style.display='block';
+                    cas = 0;
+
                 }
                 $(this)
-                    .addClass("piece");
+
                 ui.draggable("disable")
             },
         })
     }
 } );
+
+$(document).ready(function() {
+    time();
+});
+
+$('#reset').click(function (){
+    location.reload();
+})
