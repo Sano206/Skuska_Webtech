@@ -8,7 +8,7 @@
     ]},
     {"name": "Lašan","link": "index.html", "sub": [
       {"name": "O mne","link": "lasan.html", "sub": null},
-      {"name": "Hra","link": "index.html", "sub": null}
+      {"name": "Hra","link": "hra_lasan.html", "sub": null}
     ]},
     {"name": "Vlčková","link": "index.html", "sub": [
       {"name": "O mne","link": "vlckova.html", "sub": null},
